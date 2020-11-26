@@ -146,5 +146,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline" />
 
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="201dp"
+            android:layout_height="95dp"
+            android:text="@{gameViewModel.wordHint}"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.624" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
